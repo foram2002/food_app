@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <!-- <link href="bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .hero {
+            background-image: url('img/slid_img.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Foodie's Delight</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dishes">Dishes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container-fruid mt-5 cf">
+        <div class="row align-items-center">
+            <!-- Left Image -->
+            <div class="col-md-6">
+                <img src="img/slid_img.jpg" alt="Sample Image" class="img-fluid rounded">
+            </div>
+            <!-- Right Content -->
+            <div class="col-md-6 fc">
+                <h2>Content Section</h2>
+                <p>
+                    Food consists of substances consumed by living organisms to sustain life, provide energy, and promote growth. It includes a wide range of items such as fruits, vegetables, grains, proteins, dairy products, and processed goods.
+                </p>
+                <button type="button" class="btn btn-success">More info</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Dishes -->
+    <div class="container-fruid my-5 fc" id="dishes">
+        <h2 class="text-center mb-4">Our Featured Dishes</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/img_food" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Pasta Primavera</h5>
+                        <p class="card-text">A classic Italian pasta dish with fresh vegetables and creamy sauce.</p>
+                        <button class="btn btn-success">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/1_food" class="card-img-top" alt="Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Grilled Steak</h5>
+                        <p class="card-text">Juicy and tender grilled steak served with sides of your choice.</p>
+                        <button class="btn btn-success">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/2_food" class="card-img-top" alt="Dish 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza</h5>
+                        <p class="card-text">Pizza is an Italian food that was created in Italy (The Naples area).</p>
+                        <button class="btn btn-success">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="ct" id="contact">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="container contact-section">
+            <form>
+                <div class="row g-3">
+                    <div class="col-md-6 contact">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" placeholder="Subject of your message" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Write your message here" required></textarea>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Part -->
+    <footer class="footer mt-5">
+        <div class="container ftr">
+            <div class="row">
+                <!-- Left Side Content -->
+                <div class="col-md-6">
+                    <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+                    Created By -Foram Goriya
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="javascript/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
